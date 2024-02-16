@@ -1,0 +1,61 @@
+{
+	"page": {
+	  "title": "Sample Page Title",
+	  "description": "A brief description of the page content.",
+	  "sections": [
+		{
+		  "type": "header",
+		  "content": {
+			"logo": {
+			  "src": "path/to/logo.png",
+			  "alt": "Logo Alt Text",
+			  "link": "homepage_link.html"
+			},
+			"navigation": [
+			  {"name": "Home", "link": "index.html"},
+			  {"name": "About Us", "link": "about.html"},
+			  {"name": "Contact", "link": "contact.html"}
+			]
+		  }
+		},
+		{
+		  "type": "main",
+		  "content": [
+			{
+			  "type": "text",
+			  "id": "intro_paragraph",
+			  "text": "Welcome to our website. Here's a brief introduction of our services."
+			},
+			{
+			  "type": "image",
+			  "id": "main_image",
+			  "src": "path/to/image.jpg",
+			  "alt": "A descriptive alternative text"
+			},
+			{
+			  "type": "video",
+			  "id": "intro_video",
+			  "src": "path/to/video.mp4",
+			  "title": "Introduction Video"
+			},
+			{
+			  "type": "link",
+			  "text": "Click here for more information.",
+			  "url": "more_info.html"
+			}
+		  ]
+		},
+		{
+		  "type": "footer",
+		  "content": {
+			"text": "Copyright © Your Company Name. All rights reserved.",
+			"links": [
+			  {"name": "Privacy Policy", "link": "privacy_policy.html"},
+			  {"name": "Terms of Use", "link": "terms.html"}
+			]
+		  }
+		}
+	  ]
+	}
+  }
+  
